@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IPyWidget export</title>
+</head>
+<body>
+
+
+<!-- Load require.js. Delete this if your page already loads require.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.10.0/dist/embed-amd.js" crossorigin="anonymous"></script>
+
+<script type="application/vnd.jupyter.widget-state+json">
+{
+  "version_major": 2,
+  "version_minor": 0,
+  "state": {
+    "ce1729adf7a14017b054167b5d3323cd": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.0.0",
+      "state": {
+        "height": "100%",
+        "width": "100%"
+      }
+    },
+    "91383e452073401ca75100741a182a2c": {
+      "model_name": "PlainmapModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "_dom_classes": [],
+        "configuration": {
+          "api_key": "AIzaSyBAV--uuJdtKuA3PNZZ-qYjufwMj_n9QwU"
+        },
+        "data_bounds": [
+          [
+            45.43923056821655,
+            9.043703203434916
+          ],
+          [
+            45.596586931783456,
+            9.295839301858981
+          ]
+        ],
+        "initial_viewport": {
+          "type": "ZOOM_CENTER",
+          "center": [
+            45.4654219,
+            9.1859243
+          ],
+          "zoom_level": 10
+        },
+        "layers": [
+          "IPY_MODEL_df18f28c917440189f18884e8834d427",
+          "IPY_MODEL_e5899cb9f8094f9687832db7ab3dcd7a",
+          "IPY_MODEL_13f3af1306614e7aad1c909db5ddde08"
+        ],
+        "layout": "IPY_MODEL_ce1729adf7a14017b054167b5d3323cd"
+      }
+    },
+    "8f1184781c3546dfabea180e62d548bc": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.0.0",
+      "state": {}
+    },
+    "3d78c9ff37984f178e2ca2bc045d1da6": {
+      "model_name": "ToolbarModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "_dom_classes": [],
+        "layer_controls": [],
+        "layout": "IPY_MODEL_8f1184781c3546dfabea180e62d548bc"
+      }
+    },
+    "47907fc72eb8495b805fd86005f13a2c": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.0.0",
+      "state": {}
+    },
+    "a47adf6e7b6b4accbb577dec39c128a2": {
+      "model_name": "ErrorsBoxModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "_dom_classes": [],
+        "errors": [],
+        "layout": "IPY_MODEL_47907fc72eb8495b805fd86005f13a2c"
+      }
+    },
+    "c3d07c47e16f45e095a3967e15aebc57": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.0.0",
+      "state": {
+        "height": "420px"
+      }
+    },
+    "d402969a794c4951b4b5813eaf77e900": {
+      "model_name": "FigureModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "_dom_classes": [],
+        "_errors_box": "IPY_MODEL_a47adf6e7b6b4accbb577dec39c128a2",
+        "_map": "IPY_MODEL_91383e452073401ca75100741a182a2c",
+        "_toolbar": "IPY_MODEL_3d78c9ff37984f178e2ca2bc045d1da6",
+        "layout": "IPY_MODEL_c3d07c47e16f45e095a3967e15aebc57"
+      }
+    },
+    "df18f28c917440189f18884e8834d427": {
+      "model_name": "TransitLayerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {}
+    },
+    "e5899cb9f8094f9687832db7ab3dcd7a": {
+      "model_name": "TrafficLayerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {}
+    },
+    "13f3af1306614e7aad1c909db5ddde08": {
+      "model_name": "SimpleHeatmapLayerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "data_bounds": [
+          [
+            45.43923056821655,
+            9.043703203434935
+          ],
+          [
+            45.596586931783456,
+            9.295839301858981
+          ]
+        ],
+        "gradient": null,
+        "locations": [
+          [
+            45.508593,
+            9.076803
+          ],
+          [
+            45.457977,
+            9.253773
+          ],
+          [
+            45.560084,
+            9.165492
+          ],
+          [
+            45.544981,
+            9.183017
+          ]
+        ],
+        "point_radius": 0.5
+      }
+    }
+  }
+}
+</script>
+<script type="application/vnd.jupyter.widget-view+json">
+{"version_major": 2, "version_minor": 0, "model_id": "d402969a794c4951b4b5813eaf77e900"}
+</script>
+
+</body>
+</html>
